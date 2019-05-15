@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="arkusz.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="praca">
+        <button class="plus" type="button" onClick="countClicks()">+</button>
+        <p>Czas pracy: <span id="clicks"></span></p>
+        <button class="minus" type="button" onClick="discountClicks()">-</button>
+    </div>
+
+    <div class="przerwa">
+        <button class="plus1" type="button" onClick="countClicks1()">+</button>
+        <p>Czas przerwy: <span id="clicks1">0</span></p>
+        <button class="minus1" type="button" onClick="discountClicks1()">-</button>
+    </div>
+
+    <div class="licznik_cały">
+        <div class="licznik_elementy">
+            <div id=licznik_napis>Praca</div>
+            <div id=licznik_timer>00:00</div>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
